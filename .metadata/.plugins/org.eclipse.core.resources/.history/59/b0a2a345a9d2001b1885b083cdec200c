@@ -1,0 +1,34 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+		String holerite01 = JOptionPane.showInputDialog("Valor Holerite01:");
+		holerite01 = holerite01.replace(",", ".");
+		
+		String holerite02 = JOptionPane.showInputDialog("Valor Holerite02:");
+		holerite02 = holerite02.replace(",", ".");
+		
+		String holerite03 = JOptionPane.showInputDialog("Valor Holerite03:");
+		holerite03 = holerite03.replace(",", ".");
+		
+		System.out.println("Valor Holerite01:" + holerite01 +
+												"\nValor Holerite02:" + holerite02 + 
+												"\nValor Holerite03:" + holerite03);
+
+		System.out.println("Soma dos Valores String: " + holerite01 + holerite02 + holerite03);
+		double valorHolerite01 = Integer.parseInt(holerite01);
+		double valorHolerite02 = Integer.parseInt(holerite02);
+		double valorHolerite03 = Integer.parseInt(holerite03);
+		
+		double soma = valorHolerite01 + valorHolerite02 + valorHolerite03;
+		
+		System.out.println("Soma dos Valores Interger: " +soma);
+		
+	}
+
+}

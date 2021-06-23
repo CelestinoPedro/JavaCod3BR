@@ -1,0 +1,18 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+		String holerite01 = JOptionPane.showInputDialog("Valor Holerite 01:");
+		String holerite02 = JOptionPane.showInputDialog("Valor Holerite 02:");
+		String holerite03 = JOptionPane.showInputDialog("Valor Holerite 03:");
+		
+		System.out.println("Valor Holerite 01:" + holerite01 +
+												"\n Valor Holerite 02:" + holerite02 + 
+												"\n Valor Holerite 03:" + holerite03);
+	}
+
+}

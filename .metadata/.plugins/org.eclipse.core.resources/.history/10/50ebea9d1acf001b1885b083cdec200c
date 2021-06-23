@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class PrimeiroPrograma {
+	public static void main(String[] args) {
+		// Uma senteça de código termina com;
+		System.out.println("Primeiro Programa Parte #01!");
+		
+		/*
+		 	Linha1
+		 	Linha 2
+		 */
+		System.out.println("Primeiro Programa Parte #02!");
+		
+	}
+}

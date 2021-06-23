@@ -1,0 +1,23 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+		String holerite01 = JOptionPane.showInputDialog("Valor Holerite01:");
+		String holerite02 = JOptionPane.showInputDialog("Valor Holerite02:");
+		String holerite03 = JOptionPane.showInputDialog("Valor Holerite03:");
+		
+		System.out.println("Valor Holerite01:" + holerite01 +
+												"\nValor Holerite02:" + holerite02 + 
+												"\nValor Holerite03:" + holerite03);
+
+		System.out.println("Soma dos Valores String" + holerite01 + holerite02 + holerite03);
+		int valorHolerite01 = Integer.parseInt(holerite01);
+		int valorHolerite02 = Integer.parseInt(holerite02);
+		int valorHolerite03 = Integer.parseInt(holerite03);
+	}
+
+}
